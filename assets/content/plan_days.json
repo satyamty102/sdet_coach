@@ -1,0 +1,75 @@
+[
+  {
+    "day": 1,
+    "week": 1,
+    "title": "Senior SDET baseline",
+    "topics": [
+      "Define target role signals",
+      "Map current evidence to skills",
+      "Java collections review"
+    ],
+    "outcome": "A truthful strengths and gaps baseline with three stories to deepen."
+  },
+  {
+    "day": 2,
+    "week": 1,
+    "title": "Playwright mental model",
+    "topics": [
+      "Browser contexts",
+      "Locators and auto-wait",
+      "Trace-first debugging"
+    ],
+    "outcome": "Explain why Playwright tests are isolated and diagnosable."
+  },
+  {
+    "day": 3,
+    "week": 1,
+    "title": "Framework boundaries",
+    "topics": [
+      "Layered test architecture",
+      "Fixtures",
+      "Configuration and environments"
+    ],
+    "outcome": "Sketch a maintainable framework and defend each boundary."
+  },
+  {
+    "day": 4,
+    "week": 1,
+    "title": "API confidence",
+    "topics": ["REST Assured patterns", "JWT flows", "Contract assertions"],
+    "outcome": "Design API checks that protect contracts instead of duplicating UI tests."
+  },
+  {
+    "day": 5,
+    "week": 1,
+    "title": "CI feedback loops",
+    "topics": [
+      "Jenkins pipelines",
+      "Parallel workers",
+      "Artifacts and quarantine"
+    ],
+    "outcome": "Turn a four-hour suite into trustworthy feedback under twenty minutes."
+  },
+  {
+    "day": 6,
+    "week": 1,
+    "title": "Reasoning rehearsal",
+    "topics": [
+      "Flake triage",
+      "Risk-based prioritization",
+      "Senior communication"
+    ],
+    "outcome": "Communicate trade-offs with evidence, ownership, and next actions."
+  },
+  {
+    "day": 7,
+    "week": 1,
+    "title": "Mock interview and gap analysis",
+    "topics": [
+      "Architecture round",
+      "Playwright deep dive",
+      "Leadership follow-up"
+    ],
+    "outcome": "Score your baseline and select the next week’s highest-leverage gaps."
+  }
+]

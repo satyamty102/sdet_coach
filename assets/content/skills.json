@@ -1,0 +1,66 @@
+[
+  {
+    "id": "java",
+    "name": "Java fundamentals",
+    "category": "Language",
+    "current": 4,
+    "target": 5,
+    "importance": 5
+  },
+  {
+    "id": "playwright",
+    "name": "Playwright architecture",
+    "category": "Playwright",
+    "current": 3,
+    "target": 5,
+    "importance": 5
+  },
+  {
+    "id": "framework",
+    "name": "Framework architecture",
+    "category": "Framework",
+    "current": 3,
+    "target": 5,
+    "importance": 5
+  },
+  {
+    "id": "api",
+    "name": "API automation and contracts",
+    "category": "API",
+    "current": 4,
+    "target": 5,
+    "importance": 5
+  },
+  {
+    "id": "sql",
+    "name": "SQL and data validation",
+    "category": "Data",
+    "current": 3,
+    "target": 4,
+    "importance": 4
+  },
+  {
+    "id": "cicd",
+    "name": "CI/CD and Jenkins",
+    "category": "CI/CD",
+    "current": 3,
+    "target": 5,
+    "importance": 5
+  },
+  {
+    "id": "leadership",
+    "name": "Technical leadership",
+    "category": "Leadership",
+    "current": 2,
+    "target": 5,
+    "importance": 5
+  },
+  {
+    "id": "communication",
+    "name": "Senior communication",
+    "category": "Communication",
+    "current": 3,
+    "target": 5,
+    "importance": 5
+  }
+]
