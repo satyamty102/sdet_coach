@@ -25,4 +25,13 @@ class Skill {
   );
 
   int get gap => target - current;
+
+  Skill copyWith({int? current}) => Skill(
+    id: id,
+    name: name,
+    category: category,
+    current: current ?? this.current,
+    target: target,
+    importance: importance,
+  );
 }

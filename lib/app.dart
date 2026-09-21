@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 import 'presentation/dashboard/dashboard_screen.dart';
+import 'presentation/assessment/assessment_screen.dart';
+import 'presentation/plan/plan_screen.dart';
 import 'presentation/placeholder/placeholder_screen.dart';
 import 'presentation/shell/app_shell.dart';
 import 'presentation/theme/app_theme.dart';
@@ -21,10 +23,11 @@ class SdetCoachApp extends StatelessWidget {
           ),
           GoRoute(
             path: '/plan',
-            builder: (context, state) => const PlaceholderScreen(
-              title: '6-Week Plan',
-              icon: Icons.calendar_month_outlined,
-            ),
+            builder: (context, state) => const PlanScreen(),
+          ),
+          GoRoute(
+            path: '/assessment',
+            builder: (context, state) => const AssessmentScreen(),
           ),
           GoRoute(
             path: '/learn',

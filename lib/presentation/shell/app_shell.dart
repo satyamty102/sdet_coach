@@ -102,9 +102,10 @@ class _CoachDrawer extends StatelessWidget {
               onTap: () => context.go(item.path),
             ),
           const Divider(height: 32),
-          const ListTile(
+          ListTile(
             leading: Icon(Icons.tune_outlined),
             title: Text('Skill assessment'),
+            onTap: () => context.go('/assessment'),
           ),
           const ListTile(
             leading: Icon(Icons.rule_outlined),
